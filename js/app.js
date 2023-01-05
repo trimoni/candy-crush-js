@@ -58,3 +58,7 @@ function dragLeave() {
 function dragDrop() {
   otherTile = this
 }
+
+function dragEnd() {
+  
+}
