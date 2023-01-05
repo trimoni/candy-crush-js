@@ -60,7 +60,7 @@ function dragDrop() {
 }
 
 function dragEnd() {
-  let currImg = currImg.src
+  let currImg = currTile.src
   let otherImg = otherTile.src
   currTile.src = otherImg
   otherTile.src = currImg
