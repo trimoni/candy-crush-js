@@ -42,3 +42,8 @@ function startGame() {
 function dragStart() {
   currTile = this
 }
+
+function dragOver(e) {
+  e.preventDefault()
+}
+
