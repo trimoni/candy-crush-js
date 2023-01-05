@@ -52,6 +52,9 @@ function dragEnter(e) {
 }
 
 function dragLeave() {
-  
+
 }
 
+function dragDrop() {
+  otherTile = this
+}
