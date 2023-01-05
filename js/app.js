@@ -10,8 +10,10 @@ window.onload = function() {
 
 function startGame() {
   for (let r = 0; r < rows; r++){
+    let row = []
     for (let c = 0; c < columns; c++){
-      
+      let tile = document.createElement('img')
+      tile.id = r.toString() + '-' + c.toString()
     }
   }
 }
