@@ -21,6 +21,12 @@ function startGame() {
           tile.id = r.toString() + "-" + c.toString();
           tile.src = './images/' + randomCandy() + ".png";
 
+          tile.addEventListener('dragstart', dragStart)
+          tile.addEventListener('dragover', dragOver)
+          tile.addEventListener('dragenter', dragEnter)
+          tile.addEventListener('dragleave', dragLeave)
+          tile.addEventListener
+
       document.getElementById('board').append(tile)
       row.push(tile)
     }
