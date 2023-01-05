@@ -4,6 +4,9 @@ let rows = 9
 let columns = 9
 let score = 0
 
+let currTile
+let otherTile
+
 window.onload = function() {
   startGame()
 }
@@ -34,4 +37,8 @@ function startGame() {
     board.push(row)
   }
   console.log(board)
+}
+
+function dragStart() {
+
 }
