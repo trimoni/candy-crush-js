@@ -21,6 +21,9 @@ function startGame() {
       tile.src = './images/' + randomCandy() + '.png'
 
       document.getElementById('board').append(tile)
+      row.push(tile)
     }
+    board.push(row)
   }
+  console.log(board)
 }
