@@ -47,3 +47,7 @@ function dragOver(e) {
   e.preventDefault()
 }
 
+function dragEnter(e) {
+  e.preventDefault()
+}
+
