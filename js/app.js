@@ -40,5 +40,5 @@ function startGame() {
 }
 
 function dragStart() {
-
+  currTile = this
 }
