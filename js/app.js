@@ -24,7 +24,7 @@ function startGame() {
       document.getElementById('board').append(tile)
       row.push(tile)
     }
-    board.push(row)
+    board.push(rows)
   }
   console.log(board)
 }
