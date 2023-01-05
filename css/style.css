@@ -6,3 +6,10 @@ body {
   text-align: center;
 }
 
+#board {
+  width: 450px;
+  height: 450px;
+  background-color: lightblue;
+  border: 5px solid slategray;
+  border-radius: 10px;
+}
