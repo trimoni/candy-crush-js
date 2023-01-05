@@ -25,7 +25,8 @@ function startGame() {
           tile.addEventListener('dragover', dragOver)
           tile.addEventListener('dragenter', dragEnter)
           tile.addEventListener('dragleave', dragLeave)
-          tile.addEventListener
+          tile.addEventListener('dragend', dragEnd)
+          tile.addEventListener('drop', dragDrop)
 
       document.getElementById('board').append(tile)
       row.push(tile)
