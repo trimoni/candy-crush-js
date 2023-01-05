@@ -51,3 +51,7 @@ function dragEnter(e) {
   e.preventDefault()
 }
 
+function dragLeave() {
+  
+}
+
