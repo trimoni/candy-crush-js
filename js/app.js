@@ -8,7 +8,9 @@ window.onload = function() {
   startGame()
 }
 
-
+function randomCandy() {
+  return candies[Math.floor(Math.random() * candies.length)]
+}
 
 function startGame() {
   for (let r = 0; r < rows; r++){
