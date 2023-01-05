@@ -73,10 +73,13 @@ function dragEnd() {
   let moveUp = r2 == r-1 && c == c2
   let moveDown = r2 == r+1 && c == c2
 
-let isAdjacent = moveLeft || moveRight || moveUp || moveDown
+  let isAdjacent = moveLeft || moveRight || moveUp || moveDown
 
-  let currImg = currTile.src
-  let otherImg = otherTile.src
-  currTile.src = otherImg
-  otherTile.src = currImg
+
+  if (isAdjacent){
+    let currImg = currTile.src
+    let otherImg = otherTile.src
+    currTile.src = otherImg
+    otherTile.src = currImg
+  }
 }
