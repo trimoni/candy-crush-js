@@ -85,5 +85,9 @@ function dragEnd() {
 }
 
 function crushCandy() {
+  crushThree()
+}
+
+function crushThree() {
   
 }
