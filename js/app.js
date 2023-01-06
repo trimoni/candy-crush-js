@@ -157,3 +157,7 @@ function checkValid() {
   }
   return false
 }
+
+function slideCandy(){
+  for ()
+}
