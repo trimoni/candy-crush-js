@@ -97,7 +97,7 @@ function crushThree() {
       if (candy1.src == candy2.src && candy2.src == candy3.src && !candy1.src.includes('blank')){
         candy1.src = './images/blank.png'
         candy2.src = './images/blank.png'
-        
+        candy3.src = './images/blank.png'
       }
     }
   }
