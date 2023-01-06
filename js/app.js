@@ -83,3 +83,7 @@ function dragEnd() {
     otherTile.src = currImg
   }
 }
+
+function crushCandy() {
+  
+}
