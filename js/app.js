@@ -89,5 +89,9 @@ function crushCandy() {
 }
 
 function crushThree() {
-  
+  for (let r = 0; r < rows; r++){
+    for (let c = 0; c < columns - 2; c++){
+      
+    }
+  }
 }
