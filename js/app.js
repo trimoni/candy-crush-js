@@ -85,6 +85,14 @@ function dragEnd() {
     let otherImg = otherTile.src
     currTile.src = otherImg
     otherTile.src = currImg
+
+    let validMove = checkValid()
+    if (!validMove) {
+      let currImg = currTile.src
+      let otherImg = otherTile.src
+      currTile.src = otherImg
+      otherTile.src = currImg
+    }
   }
 }
 
