@@ -9,6 +9,10 @@ let otherTile
 
 window.onload = function() {
   startGame()
+
+  window.setInterval(function(){
+    crushCandy()
+  })
 }
 
 function randomCandy() {
