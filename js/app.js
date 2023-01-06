@@ -159,5 +159,13 @@ function checkValid() {
 }
 
 function slideCandy(){
-  for ()
+  for (let c = 0; c < columns; c++){
+    let ind = rows - 1
+    for (let r = columns - 1; r >= 0; r--){
+      if (!board[r][c].src.includes('blank')){
+        board[ind][c].src = board[r][c].src
+        ind -= 1
+      }
+    }
+  }
 }
