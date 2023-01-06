@@ -12,6 +12,7 @@ window.onload = function() {
 
   window.setInterval(function(){
     crushCandy()
+    slideCandy()
   }, 100)
 }
 
