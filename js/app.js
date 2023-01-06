@@ -173,3 +173,7 @@ function slideCandy(){
     }
   }
 }
+
+function generateCandy() {
+  
+}
