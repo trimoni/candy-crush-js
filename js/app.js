@@ -118,7 +118,7 @@ function crushThree() {
         candy1.src = './images/blank.png'
         candy2.src = './images/blank.png'
         candy3.src = './images/blank.png'
-        socre += 30
+        score += 30
       }
     }
   }
