@@ -105,6 +105,7 @@ if (currTile.src.includes('blank') || otherTile.src.includes('blank')){
 
 function crushCandy() {
   crushThree()
+  document.getElementById('score').innerText = score
 }
 
 function crushThree() {
@@ -117,6 +118,7 @@ function crushThree() {
         candy1.src = './images/blank.png'
         candy2.src = './images/blank.png'
         candy3.src = './images/blank.png'
+        socre += 30
       }
     }
   }
