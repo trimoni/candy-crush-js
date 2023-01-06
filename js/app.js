@@ -142,4 +142,5 @@ function checkValid() {
       }
     }
   }
+  return false
 }
