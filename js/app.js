@@ -127,9 +127,7 @@ function checkValid() {
       let candy2 = board[r][c+1]
       let candy3 = board[r][c+2]
       if (candy1.src == candy2.src && candy2.src == candy3.src && !candy1.src.includes('blank')){
-        candy1.src = './images/blank.png'
-        candy2.src = './images/blank.png'
-        candy3.src = './images/blank.png'
+        return true
       }
     }
   }
@@ -140,9 +138,7 @@ function checkValid() {
       let candy2 = board[r+1][c]
       let candy3 = board[r+2][c]
       if (candy1.src == candy2.src && candy2.src == candy3.src && !candy1.src.includes('blank')){
-        candy1.src = './images/blank.png'
-        candy2.src = './images/blank.png'
-        candy3.src = './images/blank.png'
+        return true
       }
     }
   }
